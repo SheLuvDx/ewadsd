@@ -16,12 +16,12 @@ import { getLanguage, setLanguage } from "./store/language.js";
 
 export const config = {
   author: "Snipcola",
-  name: "FilmHaven",
+  name: "PrimeHaven",
   defaultLanguage: "en",
   header: {
     name: {
       normal: {
-        text: "Film",
+        text: "Prime",
         accent: "Haven",
       },
       mobile: {
