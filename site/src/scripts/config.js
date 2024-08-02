@@ -15,8 +15,8 @@ import { getLanguages } from "./api/languages.js";
 import { getLanguage, setLanguage } from "./store/language.js";
 
 export const config = {
-  author: "Snipcola",
-  name: "PrimeHaven",
+  author: "DW",
+  name: "DwHaven",
   defaultLanguage: "en",
   header: {
     name: {
@@ -52,12 +52,12 @@ export const config = {
     links: [
       {
         icon: "youtube",
-        url: "https://url.snipcola.com/youtube",
+        url: "https://youtube.com/sheluvdx",
         label: "YouTube",
       },
       {
         icon: "github",
-        url: "https://url.snipcola.com/git",
+        url: "https://github.com/PREE",
         label: "Git",
       },
       {
