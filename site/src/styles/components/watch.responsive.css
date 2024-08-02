@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1200px) {
+  .modal:not(.has-player) .watch .video,
+  .modal:not(.has-player) .modal-header.has-video {
+    width: calc(100% - (20px * 2)) !important;
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .watch .details {
+    flex-direction: column;
+    gap: var(--large-gap);
+  }
+
+  .watch .container {
+    width: 100% !important;
+  }
+
+  .watch .details .control .indicators {
+    display: none;
+  }
+
+  .watch .details .area.minimal .cards .card {
+    width: calc(25% - var(--small-padding));
+  }
+
+  .watch .details .right.full-width {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .watch .details .cast-cards .cast-card {
+    width: calc(50% - var(--small-padding));
+  }
+
+  .watch .details .review-cards .review-card {
+    width: calc(100% - var(--small-padding));
+  }
+
+  .watch .details .review-cards .review-card .stars {
+    display: none;
+  }
+
+  .watch .details .review-cards .review-card .rating {
+    padding: var(--small-padding) var(--large-padding);
+  }
+
+  .watch .details .season-card {
+    padding: var(--small-padding);
+  }
+
+  .watch .details .season-card .episodes .episode {
+    flex-direction: column-reverse;
+    padding: var(--small-padding);
+  }
+
+  .watch .details .season-card .episodes .episode .description,
+  .watch .details .season-card .episodes .episode .episode-right .notice {
+    display: none;
+  }
+
+  .watch .details .season-card .episodes .episode .episode-left {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .watch .details .area.minimal .cards .card {
+    width: calc(50% - var(--small-padding));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal:not(.has-player) .watch .video {
+    height: calc(
+      100dvh - (16px + 1px + 10px + 37px + 10px + 1px + 20px + 1rem)
+    );
+  }
+}
