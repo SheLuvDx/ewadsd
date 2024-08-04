@@ -21,12 +21,12 @@ export const config = {
   header: {
     name: {
       normal: {
-        text: "Prime",
+        text: "DW",
         accent: "Haven",
       },
       mobile: {
-        text: "F",
-        accent: "H",
+        text: "D",
+        accent: "W",
       },
     },
     links: [
@@ -52,7 +52,7 @@ export const config = {
     links: [
       {
         icon: "youtube",
-        url: "https://youtube.com/sheluvdx",
+        url: "https://www.youtube.com/@sheluvdx",
         label: "YouTube",
       },
       {
@@ -64,7 +64,7 @@ export const config = {
         icon: "download",
         url: window.location.pathname,
         label: "Download",
-        download: "FilmHaven.html",
+        download: "DWHaven.html",
       },
     ],
   },
